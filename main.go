@@ -13,8 +13,8 @@ func main() {
 		{Id: 1, Name: "Caio", Biography: "Maluco eh brabo", Birth: "01/02/2002"},
 		{Id: 2, Name: "Bya", Biography: "Menos braba q o Caio", Birth: "07/09/1996"},
 	}
-	fmt.Println("OI")
-	db.DbConnect()
 
+	db.DbConnect()
+	fmt.Println("OI")
 	rt.HandleRequest()
 }
